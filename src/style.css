@@ -3,6 +3,101 @@
 body {
   font-family: "Open Sans", sans-serif;
   min-height: 60vh;
+
+}
+
+h1 {
+  color: #000000;
+  margin: 10px auto;
+  padding-top: 25px;
+  border-radius: 80px;
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #ffff;
+  color: #952;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+  line-height: 18px;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+div.container {
+  border-color: #000;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 15px auto;
+
+}
+
+div.weather-app {
+  border-radius: 10px;
+  padding: 20px;
+  height: 95%;
+  border: 1px solid #dadde1;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  width: 55px;
+  height: 50px;
+
+}
+
+.weather-temperature strong {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1;
+
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -25px;
+
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 60vh;
 }
 
 div.container {
@@ -136,4 +231,6 @@ footer {
 .units {
   position: relative;
   top: -15px;
-}
+} */
+
+
