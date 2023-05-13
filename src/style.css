@@ -91,6 +91,9 @@ div.weather-app {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+.current_button{
+  background-color: green;
+}
 
 
 /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
