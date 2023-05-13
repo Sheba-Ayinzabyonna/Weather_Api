@@ -42,7 +42,11 @@ li:first-letter {
 }
 
 div.container {
-  border-color: #000;
+  background: linear-gradient(90deg,
+        rgba(63, 174, 228, 1) 0%,
+        rgba(157, 209, 242, 1) 100%,
+        rgba(0, 212, 255, 1) 35%);
+ 
 }
 
 .weather-app-wrapper {
