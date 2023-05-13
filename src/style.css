@@ -46,10 +46,7 @@ div.weather-app-wrapper {
   max-width: 600px;
   margin: 15px auto;
   border-radius:10px ;
-  background: linear-gradient(90deg,
-        rgba(63, 174, 228, 1) 0%,
-        rgba(157, 209, 242, 1) 100%,
-        rgba(0, 212, 255, 1) 35%);
+ 
 
 }
 
@@ -58,7 +55,11 @@ div.weather-app {
   padding: 20px;
   height: 85%;
   border: 2px solid #dadde1;
-  box-shadow:rgba(157, 209, 242, 1) ;
+  background: linear-gradient(90deg,
+        rgba(63, 174, 228, 1) 0%,
+        rgba(157, 209, 242, 1) 100%,
+        rgba(0, 212, 255, 1) 35%);
+  /* box-shadow:rgba(157, 209, 242, 1) ; */
 }
 
 .overview {
