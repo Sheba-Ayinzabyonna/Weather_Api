@@ -41,10 +41,6 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-/* div.container {
- 
- 
-} */
 
 div.weather-app-wrapper {
   max-width: 600px;
@@ -60,8 +56,9 @@ div.weather-app-wrapper {
 div.weather-app {
   border-radius: 10px;
   padding: 20px;
-  height: 95%;
-  border: 1px solid #dadde1;
+  height: 90%;
+  border: 2px solid #dadde1;
+  box-shadow:rgba(157, 209, 242, 1) ;
 }
 
 .overview {
