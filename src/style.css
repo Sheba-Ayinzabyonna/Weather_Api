@@ -27,7 +27,7 @@ ul {
 li {
   list-style: none;
   color: #ffff;
-  color: #952;
+  /* color: #952; */
   display: block;
   font-size: 16px;
   text-align: left;
@@ -54,12 +54,12 @@ div.weather-app {
   border-radius: 10px;
   padding: 20px;
   height: 85%;
-  border: 2px solid #dadde1;
+  border: 1px solid #da8de1;
   background: linear-gradient(90deg,
         rgba(63, 174, 228, 1) 0%,
         rgba(157, 209, 242, 1) 100%,
         rgba(0, 212, 255, 1) 35%);
-  /* box-shadow:rgba(157, 209, 242, 1) ; */
+  
 }
 
 .overview {
