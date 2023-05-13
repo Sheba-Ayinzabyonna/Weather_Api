@@ -56,7 +56,7 @@ div.weather-app-wrapper {
 div.weather-app {
   border-radius: 10px;
   padding: 20px;
-  height: 90%;
+  height: 85%;
   border: 2px solid #dadde1;
   box-shadow:rgba(157, 209, 242, 1) ;
 }
